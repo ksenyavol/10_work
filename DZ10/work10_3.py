@@ -2,7 +2,6 @@
 # «type» невозможно записать в байтовом типе.
 
 words = ['attribute', 'класс', 'функция']
-
 for word in words:
     try:
         byte_word = bytes(word, 'ascii')
